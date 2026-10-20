@@ -1,0 +1,462 @@
+<html>
+        <head><title>Downloaded HTML</title></head>
+        <body>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;"><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faracha Dz | فراشة ديزاد للحقائب النسائية الفاخرة</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    },
+                    colors: {
+                        cream: '#FAF7F5',
+                        charcoal: '#1E1E1E',
+                        rosegold: '#C88A7B',
+                        rosegoldDark: '#B07263',
+                        gold: '#D4AF37',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html, body {
+            height: 100%;
+            background-color: #FAF7F5;
+            color: #1E1E1E;
+        }
+        .snap-container {
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+            scroll-behavior: smooth;
+        }
+        .snap-section {
+            height: 100vh;
+            width: 100%;
+            scroll-snap-align: start;
+            scroll-snap-stop: always;
+            position: relative;
+        }
+        .snap-container::-webkit-scrollbar { width: 5px; }
+        .snap-container::-webkit-scrollbar-track { background: #FAF7F5; }
+        .snap-container::-webkit-scrollbar-thumb { background: #C88A7B; border-radius: 10px; }
+        @keyframes floatButterfly {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-8px) rotate(2deg); }
+        }
+        .butterfly-anim { animation: floatButterfly 4s ease-in-out infinite; }
+        .luxury-pattern {
+            background-image: radial-gradient(#C88A7B 0.6px, transparent 0.6px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-rosegold selection:text-white overflow-hidden">
+
+    <!-- الهيدر العلوي الثابت -->
+    <header class="fixed top-0 left-0 right-0 z-40 bg-cream/90 backdrop-blur-md border-b border-rosegold/20 px-4 md:px-10 py-3 flex items-center justify-between shadow-sm">
+        <a href="#hero" class="flex items-center gap-2.5">
+            <div class="w-9 h-9 rounded-full bg-rosegold/15 flex items-center justify-center border border-rosegold/30">
+                <svg class="w-5 h-5 text-rosegold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M12 12C12 12 7 5 3 7C-1 9 2 16 7 16C9.5 16 12 12 12 12Z" fill="#C88A7B" fill-opacity="0.25"/>
+                    <path d="M12 12C12 12 17 5 21 7C25 9 22 16 17 16C14.5 16 12 12 12 12Z" fill="#C88A7B" fill-opacity="0.25"/>
+                    <path d="M12 12C12 12 8 16 6 20C4 22 8 23 10 20C11.5 17.5 12 12 12 12Z"/>
+                    <path d="M12 4V20" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div>
+                <span class="font-serif text-xl font-bold tracking-wider text-charcoal block leading-none">Faracha Dz</span>
+                <span class="text-[10px] text-rosegold font-bold tracking-widest">LUXURY BAGS</span>
+            </div>
+        </a>
+
+        <div class="flex items-center gap-2">
+            <button onclick="openAdminModal()" class="text-xs md:text-sm bg-white hover:bg-rosegold/10 text-charcoal border border-rosegold/40 px-3 py-1.5 rounded-full font-bold transition shadow-sm">
+                ⚙️ تعديل / إضافة منتج
+            </button>
+            <a href="#product-0" class="text-xs md:text-sm bg-rosegold hover:bg-rosegoldDark text-white px-4 py-1.5 rounded-full font-bold transition shadow-md">
+                تصفحي الحقائب
+            </a>
+        </div>
+    </header>
+
+    <!-- حاوية الصفحات الكاملة -->
+    <main class="snap-container" id="mainContainer">
+
+        <!-- 1. شاشة الترحيب -->
+        <section id="hero" class="snap-section flex flex-col items-center justify-center text-center px-6 luxury-pattern relative overflow-hidden">
+            <div class="max-w-2xl mx-auto z-10 mt-10">
+                <div class="inline-flex items-center gap-2 bg-white/90 border border-rosegold/30 px-4 py-1.5 rounded-full text-xs md:text-sm font-bold text-charcoal shadow-sm mb-6">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+                    <span>توصيل سريع لـ 58 ولاية والدفع عند الاستلام 🇩🇿</span>
+                </div>
+
+                <div class="w-24 h-24 mx-auto mb-5 rounded-full bg-gradient-to-tr from-rosegold/20 via-white to-gold/20 border border-rosegold/40 flex items-center justify-center shadow-lg butterfly-anim">
+                    <svg class="w-14 h-14 text-rosegold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+                        <path d="M12 12C12 12 6.5 3.5 2 6.5C-2 9.5 1.5 16.5 7 16.5C10 16.5 12 12 12 12Z" fill="#C88A7B" fill-opacity="0.22"/>
+                        <path d="M12 12C12 12 17.5 3.5 22 6.5C26 9.5 22.5 16.5 17 16.5C14 16.5 12 12 12 12Z" fill="#C88A7B" fill-opacity="0.22"/>
+                        <path d="M12 12C12 12 7.5 16.5 5.5 20.5C3.5 23 8 23.5 10.2 20C11.5 17.5 12 12 12 12Z" fill="#D4AF37" fill-opacity="0.2"/>
+                        <path d="M12 3.5V20.5" stroke="#1E1E1E" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+
+                <h1 class="font-serif text-4xl md:text-6xl font-bold text-charcoal tracking-wide mb-3">
+                    Faracha <span class="text-rosegold">Dz</span>
+                </h1>
+                <p class="text-base md:text-xl text-gray-700 leading-relaxed mb-8 max-w-lg mx-auto">
+                    تألقي بأناقة لا تُقاوم.. تشكيلة حقائب نسائية فاخرة صُممت بعناية لتُكمل أنوثتكِ في كل مناسبة.
+                </p>
+
+                <a href="#product-0" class="inline-flex items-center gap-3 bg-charcoal hover:bg-rosegold text-white text-base md:text-lg font-bold px-8 py-4 rounded-full shadow-xl transition-all">
+                    <span>اكتشفي التشكيلة الآن</span>
+                    <span>↓</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- حاوية المنتجات التي تتولد تلقائياً -->
+        <div id="productsWrapper"></div>
+
+    </main>
+
+    <!-- نافذة استمارة الطلب (الاسم، الهاتف، الولاية، السكن) -->
+    <div id="orderModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 backdrop-blur-sm p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border border-rosegold/30 relative my-auto">
+            <button onclick="closeOrderModal()" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 font-bold">✕</button>
+
+            <div class="text-center mb-4">
+                <h3 class="text-xl font-extrabold text-charcoal">إتمام الطلب السريع</h3>
+                <p class="text-xs text-gray-500 mt-1">أدخلي معلوماتكِ لتأكيد الطلب والدفع عند الاستلام</p>
+            </div>
+
+            <!-- ملخص الحقيبة -->
+            <div class="bg-cream rounded-2xl p-3 mb-4 flex items-center gap-3 border border-rosegold/30">
+                <img id="modalProductImg" src="" alt="صورة الحقيبة" class="w-16 h-16 rounded-xl object-cover border border-white shadow-sm">
+                <div class="flex-1 text-right">
+                    <h4 id="modalProductName" class="font-bold text-charcoal text-sm leading-tight"></h4>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-xs text-gray-600">اللون:</span>
+                        <span id="modalProductColor" class="text-xs font-bold bg-white px-2.5 py-0.5 rounded-full border border-rosegold/40 text-rosegoldDark"></span>
+                    </div>
+                    <p id="modalProductPrice" class="text-rosegoldDark font-extrabold text-sm mt-1"></p>
+                </div>
+            </div>
+
+            <!-- الاستمارة (الخانات تحت بعضها) -->
+            <form id="whatsappOrderForm" onsubmit="submitOrderToWhatsApp(event)" class="space-y-3">
+                <div>
+                    <label class="block text-xs font-bold text-charcoal mb-1">الاسم واللقب <span class="text-red-500">*</span></label>
+                    <input type="text" id="custName" required placeholder="مثال: سارة بن علي"
+                        class="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:border-rosegold outline-none text-sm bg-gray-50">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-charcoal mb-1">رقم الهاتف <span class="text-red-500">*</span></label>
+                    <input type="tel" id="custPhone" required placeholder="05 / 06 / 07 XX XX XX XX" dir="ltr"
+                        class="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:border-rosegold outline-none text-sm text-right bg-gray-50">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-charcoal mb-1">الولاية <span class="text-red-500">*</span></label>
+                    <select id="custWilaya" required
+                        class="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:border-rosegold outline-none text-sm bg-gray-50">
+                        <option value="" disabled selected>-- اختاري ولايتكِ (58 ولاية) --</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-bold text-charcoal mb-1">البلدية وعنوان السكن <span class="text-red-500">*</span></label>
+                    <input type="text" id="custAddress" required placeholder="مثال: باب الزوار - حي كذا"
+                        class="w-full px-4 py-2.5 rounded-xl border border-gray-300 focus:border-rosegold outline-none text-sm bg-gray-50">
+                </div>
+
+                <button type="submit"
+                    class="w-full mt-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-xl shadow-lg transition flex items-center justify-center gap-2 text-base">
+                    <span>تأكيد الطلب عبر واتساب ✅</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- نافذة الإدارة -->
+    <div id="adminModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 backdrop-blur-sm p-4 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 shadow-2xl border border-rosegold/30 relative my-auto">
+            <button onclick="closeAdminModal()" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 font-bold">✕</button>
+            <h3 class="text-lg font-extrabold text-charcoal mb-3">⚙️ تعديل رقم الواتساب وإضافة الحقائب</h3>
+            <div class="bg-cream p-3 rounded-2xl border border-rosegold/30 mb-4">
+                <label class="block text-xs font-bold text-charcoal mb-1">📞 رقم الواتساب (بصيغة 213):</label>
+                <div class="flex gap-2">
+                    <input type="text" id="adminWhatsappInput" dir="ltr" class="flex-1 px-3 py-2 rounded-xl border text-sm font-mono">
+                    <button onclick="updateWhatsappNumber()" class="bg-charcoal text-white text-xs font-bold px-4 py-2 rounded-xl">حفظ</button>
+                </div>
+            </div>
+            <form onsubmit="addNewProductFromUI(event)" class="space-y-2.5 border-t pt-3">
+                <input type="text" id="newBagName" required placeholder="اسم الحقيبة الجديدة" class="w-full px-3 py-2 rounded-xl border text-sm">
+                <div class="grid grid-cols-2 gap-2">
+                    <input type="number" id="newBagPrice" required placeholder="السعر (د.ج)" class="w-full px-3 py-2 rounded-xl border text-sm">
+                    <input type="number" id="newBagOldPrice" placeholder="السعر القديم (اختياري)" class="w-full px-3 py-2 rounded-xl border text-sm">
+                </div>
+                <input type="text" id="newBagImages" required placeholder="روابط الصور مفصولة بفاصلة ," dir="ltr" class="w-full px-3 py-2 rounded-xl border text-sm">
+                <input type="text" id="newBagColors" required placeholder="الألوان (أسود, بيج, عنابي)" class="w-full px-3 py-2 rounded-xl border text-sm">
+                <textarea id="newBagDesc" rows="2" required placeholder="وصف الحقيبة..." class="w-full px-3 py-2 rounded-xl border text-sm"></textarea>
+                <button type="submit" class="w-full bg-rosegold text-white font-bold py-2.5 rounded-xl text-sm">إضافة الحقيبة للصفحة</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        let WHATSAPP_NUMBER = "213676186670";
+
+        const ALGERIA_WILAYAS = [
+            "01 - أدرار", "02 - الشلف", "03 - الأغواط", "04 - أم البواقي", "05 - باتنة",
+            "06 - بجاية", "07 - بسكرة", "08 - بشار", "09 - البليدة", "10 - البويرة",
+            "11 - تمنراست", "12 - تبسة", "13 - تلمسان", "14 - تيارت", "15 - تيزي وزو",
+            "16 - الجزائر العاصمة", "17 - الجلفة", "18 - جيجل", "19 - سطيف", "20 - سعيدة",
+            "21 - سكيكدة", "22 - سيدي بلعباس", "23 - عنابة", "24 - قالمة", "25 - قسنطينة",
+            "26 - المدية", "27 - مستغانم", "28 - المسيلة", "29 - معسكر", "30 - ورقلة",
+            "31 - وهران", "32 - البيض", "33 - إليزي", "34 - برج بوعريريج", "35 - بومرداس",
+            "36 - الطارف", "37 - تندوف", "38 - تيسمسيلت", "39 - الوادي", "40 - خنشلة",
+            "41 - سوق أهراس", "42 - تيبازة", "43 - ميلة", "44 - عين الدفلى", "45 - النعامة",
+            "46 - عين تموشنت", "47 - غرداية", "48 - غليزان", "49 - تيميمون", "50 - برج باجي مختار",
+            "51 - أولاد جلال", "52 - بني عباس", "53 - عين صالح", "54 - عين قزام", "55 - تقرت",
+            "56 - جانت", "57 - المغير", "58 - المنيعة"
+        ];
+
+        const productsData = [
+            {
+                id: 1,
+                name: "حقيبة الفخامة الباريسية - Étoile",
+                price: 4800,
+                oldPrice: 6200,
+                badge: "الأكثر طلباً 🔥",
+                description: "مصنوعة من الجلد الإيطالي الفاخر المقاوم للخدش، بتصميم كلاسيكي أنيق يناسب السهرات والخروجات الرسمية. مرفقة بحزام كتف ذهبي.",
+                images: [
+                    "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=80"
+                ],
+                colors: [
+                    { name: "بني كراميل", hex: "#8B5A2B" },
+                    { name: "أسود ملكي", hex: "#1E1E1E" },
+                    { name: "بيج ناعم", hex: "#E5D3B3" }
+                ]
+            },
+            {
+                id: 2,
+                name: "حقيبة الفراشة الملكية - Rosé",
+                price: 5200,
+                oldPrice: 6500,
+                badge: "تشكيلة جديدة ✨",
+                description: "تصميم عصري فخم بلمسات ذهبية ساحرة، تقسيم داخلي واسع ومنظم يتسع لجميع مستلزماتكِ اليومية بكل أناقة وراحة.",
+                images: [
+                    "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=900&q=80"
+                ],
+                colors: [
+                    { name: "أسود كلاسيك", hex: "#1B1B1B" },
+                    { name: "عنابي ملكي", hex: "#6E1E2A" },
+                    { name: "وردي بودرة", hex: "#D8A7B1" }
+                ]
+            }
+        ];
+
+        let selectedColorsByProduct = {};
+        let currentOrderingProductIndex = null;
+
+        function populateWilayas() {
+            const select = document.getElementById('custWilaya');
+            ALGERIA_WILAYAS.forEach(wilaya => {
+                const opt = document.createElement('option');
+                opt.value = wilaya;
+                opt.textContent = wilaya;
+                select.appendChild(opt);
+            });
+        }
+
+        function renderProducts() {
+            const wrapper = document.getElementById('productsWrapper');
+            wrapper.innerHTML = '';
+
+            productsData.forEach((product, pIndex) => {
+                if (!selectedColorsByProduct[pIndex] && product.colors.length > 0) {
+                    selectedColorsByProduct[pIndex] = product.colors[0].name;
+                }
+
+                const section = document.createElement('section');
+                section.id = `product-${pIndex}`;
+                section.className = 'snap-section flex items-center justify-center px-4 md:px-12 pt-16 pb-6 bg-cream';
+
+                const thumbsHTML = product.images.map((imgUrl) => `
+                    <button type="button" onclick="changeProductImage(${pIndex}, '${imgUrl}')"
+                        class="w-12 h-12 rounded-xl overflow-hidden border-2 border-white shadow hover:border-rosegold transition">
+                        <img src="${imgUrl}" class="w-full h-full object-cover" alt="صورة">
+                    </button>
+                `).join('');
+
+                const colorsHTML = product.colors.map((col) => {
+                    const isSelected = selectedColorsByProduct[pIndex] === col.name;
+                    return `
+                        <button type="button" onclick="selectProductColor(${pIndex}, '${col.name}')"
+                            class="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-bold transition ${isSelected ? 'border-charcoal bg-charcoal text-white shadow' : 'border-gray-300 bg-white text-gray-700'}">
+                            <span class="w-3.5 h-3.5 rounded-full border border-gray-300 inline-block" style="background-color: ${col.hex}"></span>
+                            <span>${col.name}</span>
+                        </button>
+                    `;
+                }).join('');
+
+                // الترتيب هنا: شبكة من عمودين (md:grid-cols-12) بحيث الصورة على اليمين (order-1 md:order-1) والوصف والأزرار على اليسار (order-2 md:order-2)
+                section.innerHTML = `
+                    <div class="max-w-5xl w-full bg-white rounded-3xl shadow-xl border border-rosegold/20 overflow-hidden grid grid-cols-1 md:grid-cols-12 items-center">
+                        
+                        <!-- 1. قسم الصورة (على اليمين في الحاسوب) -->
+                        <div class="md:col-span-6 relative bg-gray-100 h-64 sm:h-72 md:h-[450px] w-full order-1">
+                            <img id="main-img-${pIndex}" src="${product.images[0]}" alt="${product.name}" class="w-full h-full object-cover">
+                            ${product.badge ? `<span class="absolute top-3 right-3 bg-charcoal/85 text-white text-xs font-bold px-3 py-1 rounded-full shadow">${product.badge}</span>` : ''}
+                            <span class="absolute top-3 left-3 bg-white/90 text-charcoal text-xs font-bold px-2.5 py-1 rounded-full shadow">
+                                ${pIndex + 1} / ${productsData.length}
+                            </span>
+                            ${product.images.length > 1 ? `<div class="absolute bottom-3 left-0 right-0 flex justify-center gap-2">${thumbsHTML}</div>` : ''}
+                        </div>
+
+                        <!-- 2. قسم الوصف وتفاصيل المنتج وزر الطلب (على اليسار في الحاسوب) -->
+                        <div class="md:col-span-6 p-6 md:p-8 flex flex-col justify-between order-2 h-full">
+                            <div>
+                                <span class="text-[11px] font-bold tracking-wider uppercase text-rosegold block mb-1">Faracha Dz Collection</span>
+                                <h2 class="text-2xl font-extrabold text-charcoal mb-2">${product.name}</h2>
+                                
+                                <div class="flex items-baseline gap-3 mb-3">
+                                    <span class="text-2xl md:text-3xl font-extrabold text-rosegoldDark">${product.price.toLocaleString()} د.ج</span>
+                                    ${product.oldPrice ? `<span class="text-sm text-gray-400 line-through">${product.oldPrice.toLocaleString()} د.ج</span>` : ''}
+                                </div>
+
+                                <p class="text-xs md:text-sm text-gray-600 leading-relaxed mb-4">
+                                    ${product.description}
+                                </p>
+
+                                <!-- الألوان -->
+                                <div class="mb-5">
+                                    <label class="block text-xs font-bold text-charcoal mb-2">
+                                        اللون المختار: <span class="text-rosegoldDark">${selectedColorsByProduct[pIndex]}</span>
+                                    </label>
+                                    <div class="flex flex-wrap gap-2">
+                                        ${colorsHTML}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- زر اطلبي الآن البارز -->
+                            <div class="pt-3 border-t border-gray-100">
+                                <button type="button" onclick="openOrderModal(${pIndex})"
+                                    class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold py-3.5 px-6 rounded-2xl shadow-lg transition flex items-center justify-center gap-2.5 text-base cursor-pointer">
+                                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                                    </svg>
+                                    <span>اطلبي الآن عبر واتساب</span>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                `;
+                wrapper.appendChild(section);
+            });
+        }
+
+        function changeProductImage(pIndex, imgUrl) {
+            const mainImg = document.getElementById(`main-img-${pIndex}`);
+            if (mainImg) mainImg.src = imgUrl;
+        }
+
+        function selectProductColor(pIndex, colorName) {
+            selectedColorsByProduct[pIndex] = colorName;
+            renderProducts();
+        }
+
+        function openOrderModal(pIndex) {
+            currentOrderingProductIndex = pIndex;
+            const product = productsData[pIndex];
+            const chosenColor = selectedColorsByProduct[pIndex] || 'الافتراضي';
+
+            document.getElementById('modalProductImg').src = product.images[0];
+            document.getElementById('modalProductName').textContent = product.name;
+            document.getElementById('modalProductColor').textContent = chosenColor;
+            document.getElementById('modalProductPrice').textContent = `${product.price.toLocaleString()} د.ج`;
+
+            const modal = document.getElementById('orderModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeOrderModal() {
+            const modal = document.getElementById('orderModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function submitOrderToWhatsApp(event) {
+            event.preventDefault();
+            const product = productsData[currentOrderingProductIndex];
+            const chosenColor = selectedColorsByProduct[currentOrderingProductIndex] || 'الافتراضي';
+
+            const custName = document.getElementById('custName').value.trim();
+            const custPhone = document.getElementById('custPhone').value.trim();
+            const custWilaya = document.getElementById('custWilaya').value;
+            const custAddress = document.getElementById('custAddress').value.trim();
+
+            const message = `🦋 *طلب جديد من متجر Faracha Dz* 🦋\n----------------------------------\n👜 *الحقيبة:* ${product.name}\n🎨 *اللون:* ${chosenColor}\n💰 *السعر:* ${product.price.toLocaleString()} د.ج\n----------------------------------\n👤 *معلومات الزبونة:*\n• *الاسم:* ${custName}\n• *رقم الهاتف:* ${custPhone}\n• *الولاية:* ${custWilaya}\n• *السكن / العنوان:* ${custAddress}\n----------------------------------\nأرجو تأكيد طلبي، شكراً لكم!`;
+
+            window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, '_blank');
+            closeOrderModal();
+        }
+
+        function openAdminModal() {
+            document.getElementById('adminWhatsappInput').value = WHATSAPP_NUMBER;
+            document.getElementById('adminModal').classList.remove('hidden');
+            document.getElementById('adminModal').classList.add('flex');
+        }
+
+        function closeAdminModal() {
+            document.getElementById('adminModal').classList.add('hidden');
+            document.getElementById('adminModal').classList.remove('flex');
+        }
+
+        function updateWhatsappNumber() {
+            const val = document.getElementById('adminWhatsappInput').value.trim().replace(/[^0-9]/g, '');
+            if (val) { WHATSAPP_NUMBER = val; alert('تم حفظ رقم الواتساب بنجاح: ' + WHATSAPP_NUMBER); }
+        }
+
+        function addNewProductFromUI(e) {
+            e.preventDefault();
+            productsData.push({
+                id: Date.now(),
+                name: document.getElementById('newBagName').value.trim(),
+                price: parseInt(document.getElementById('newBagPrice').value, 10),
+                oldPrice: parseInt(document.getElementById('newBagOldPrice').value, 10) || null,
+                badge: 'جديد ✨',
+                description: document.getElementById('newBagDesc').value.trim(),
+                images: document.getElementById('newBagImages').value.split(',').map(s => s.trim()).filter(Boolean),
+                colors: document.getElementById('newBagColors').value.split(',').map(c => ({ name: c.trim(), hex: '#C88A7B' }))
+            });
+            renderProducts();
+            closeAdminModal();
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            populateWilayas();
+            renderProducts();
+        });
+    </script>
+</body>
+</html></pre>
+        </body>
+    </html>
